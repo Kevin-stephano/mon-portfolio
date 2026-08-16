@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Autojob - Travail Automatisé | Kevin Stephano</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="page-project">
+
+  <header class="header">
+    <div class="container nav">
+      <a href="index.html" class="btn btn-outline-glass">&#8592; Retour aux projets</a>
+    </div>
+  </header>
+
+  <section class="project-page">
+    <div class="container">
+      <div class="project-page-header">
+        <span class="project-tag">Automatisation & IA</span>
+        <h1 class="section-title">Autojob - Travail Automatisé</h1>
+        <p class="project-page-desc">Une plateforme SaaS "Travail en ligne 100 % automatisé" qui détecte les meilleures
+          opportunités freelance (Fiverr/ComeUp) et laisse des agents IA autonomes les traiter de bout en bout.</p>
+      </div>
+
+      <div class="project-page-hero">
+        <img src="assets/autojob.png" alt="Autojob - Travail Automatisé">
+      </div>
+
+      <div class="project-page-body">
+        <div class="project-features">
+          <h2 class="project-page-h2">Fonctionnalités</h2>
+          <ul class="feature-list">
+            <li>Détection IA des jobs : surveillance n8n (IMAP, RSS) + ajout manuel d'un lien Fiverr/ComeUp</li>
+            <li>Explorateur d'opportunités : recherche, vues grille/liste, prix, client, plateforme</li>
+            <li>Agents IA spécialisés : CODE, WRITE, SEO, CRO Copy, Trad Pro, Combo — routage automatique</li>
+            <li>Dashboard KPI : revenu estimé, tâches complétées, agents actifs, temps économisé</li>
+            <li>Console d'exécution en direct : logs temps réel (Socket.io), start/stop, simulateur de job</li>
+            <li>Pipeline en 4 étapes : Détection &rarr; Analyse &amp; Brief (Ollama Llama 3) &rarr; Exécution &rarr; Livraison</li>
+            <li>Livrables IA vérifiés QA : rendu markdown, aperçu HTML, code téléchargeable</li>
+            <li>Exports : PDF, TXT, Pack Agence ZIP (PDF + CSV + code + guide), Excel élite</li>
+            <li>Post-processeur déterministe : nettoyage IA, annexe technique, détection de doublons, note qualité</li>
+            <li>Système Local-First : Docker + Ollama, zéro coût d'API</li>
+          </ul>
+        </div>
+
+        <aside class="project-sidebar">
+          <h2 class="project-page-h2">Stack technique</h2>
+          <div class="tech-chips">
+            <span class="tech-chip">React 18</span>
+            <span class="tech-chip">Vite</span>
+            <span class="tech-chip">Tailwind</span>
+            <span class="tech-chip">framer-motion</span>
+            <span class="tech-chip">Express</span>
+            <span class="tech-chip">SQLite</span>
+            <span class="tech-chip">Socket.io</span>
+            <span class="tech-chip">n8n</span>
+            <span class="tech-chip">Ollama</span>
+            <span class="tech-chip">Groq (Llama 3.1)</span>
+            <span class="tech-chip">Docker</span>
+          </div>
+          <p class="project-page-desc">Pipeline Local-First : données et traitements sur votre machine, orchestration n8n
+            + LLM local (Ollama) et Groq. Livraison automatique et boucle de paiement internationale (Fiverr/ComeUp,
+            Payoneer).</p>
+          <a href="index.html#contact" class="btn btn-coral">Discuter de ce projet</a>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
